@@ -1,0 +1,44 @@
+# Build output
+build/
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+venv/
+.venv/
+
+# Scanner state (regenerated on each run)
+tools/headless-client/scan_progress.db
+
+# Server runtime data
+dist/game/log/
+dist/login/log/
+dist/game/*.pid
+dist/login/*.pid
+dist/game/data/clans/
+dist/game/data/crests/
+
+# Geodata exports (generated, not source)
+dist/game/data/geodata_export/
+
+# Database backups
+dist/backup/
+
+# Environment
+.env
+*.local
